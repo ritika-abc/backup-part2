@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+ .items-center{
+    align-items: center;
+}
+.bg-white{
+    background-color: rgb(31, 37, 46);
+    color: black;
+}
+.user{
+    width: 28px;
+    position: relative;
+    margin-left: 24px;
+    mix-blend-mode: multiply;
+}
+ 
+.invert{
+    filter: invert(1);
+}
+
+.font{
+    font-size: 0.86rem;
+    font-weight: 400;
+}
+
+.links{
+    text-decoration: none;
+    color: #ffffff;
+}
+ 

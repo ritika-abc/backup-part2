@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "title": "Ladies-hand",
+        "name": "Green Luxurious Bag ",
+        "image": "Leather-image/women-bag2.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Ladies-hand",
+        "name": "Maroon Melted Bag ",
+        "image": "Leather-image/women-bag9.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Ladies-hand",
+        "name": "Red Cosmic Bag ",
+        "image": "Leather-image/women-bag11.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Ladies-hand",
+        "name": "Black Royal Bag",
+        "image": "Leather-image/women-bag12.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Ladies-hand",
+        "name": "Black Cutted Bag",
+        "image": "Leather-image/IMG-20240430-WA0062.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Ladies-bag",
+        "name": " Classic Maroon Bag ",
+        "image": "Leather-image/women-bag15.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Ladies-bag",
+        "name": " Shayne Black Bag ",
+        "image": "Leather-image/women-bag6.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Ladies-bag",
+        "name": "Sky Blue Mate Bag",
+        "image": "Leather-image/IMG-20240430-WA0054.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Ladies-bag",
+        "name": " Black Unicon Bag ",
+        "image": "Leather-image/IMG-20240430-WA0044.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Portfolio-bag",
+        "name": " Brown Portfolio Bag ",
+        "image": "img/bag-lez.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Portfolio-bag",
+        "name": " Mate Classic Bag",
+        "image": "img/bag-lez2.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Portfolio-bag",
+        "name": " Shayne Brown Portfolio Bag",
+        "image": "img/bag-lez3.webp"
+    },
+    {
+        "id": 13,
+        "title": "Portfolio-bag",
+        "name": "Classic Brown Portfolio Bag",
+        "image": "img/Portfolio-Bag.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Duffle",
+        "name": "gray duffle bag",
+        "image": "img/duffle.webp"
+    },
+    {
+        "id": 15,
+        "title": "Duffle",
+        "name": "classic brown duffle",
+        "image": "img/duffle2.webp"
+    },
+    {
+        "id": 16,
+        "title": "Duffle",
+        "name": "mountage olive green duffle",
+        "image": "img/duffle3.webp"
+    },
+    {
+        "id": 17,
+        "title": "Duffle",
+        "name": "travel duffle gear bag",
+        "image": "img/duffle6.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Belt",
+        "name": "finised belt",
+        "image": "Leather-image/belt2.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Belt",
+        "name": "classic belt",
+        "image": "Leather-image/belt5.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Belt",
+        "name": "vintage belt",
+        "image": "Leather-image/belt3.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Belt",
+        "name": "vintage belt",
+        "image": "Leather-image/belt3.jpg"
+    },
+    {
+        "id": 22,
+        "title": "Belt",
+        "name": "belt",
+        "image": "Leather-image/IMG-20240429-WA0011.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Wallet",
+        "name": "Card Holder",
+        "image": "Leather-image/IMG-20240429-WA0010.jpg"
+    },
+    {
+        "id": 24,
+        "title": "Wallet",
+        "name": "Card Holder",
+        "image": "Leather-image/IMG-20240429-WA0012.jpg"
+    },
+    {
+        "id": 25,
+        "title": "Wallet",
+        "name": "Wallet",
+        "image": "Leather-image/IMG-20240430-WA0022.jpg"
+    },
+    {
+        "id": 26,
+        "title": "Wallet",
+        "name": "Wallet",
+        "image": "Leather-image/IMG-20240430-WA0034.jpg"
+    },
+    {
+        "id": 27,
+        "title": "Wallet",
+        "name": " Wallet",
+        "image": "Leather-image/IMG-20240430-WA0028.jpg"
+    },
+    {
+        "id": 28,
+        "title": "Wallet",
+        "name": "Wallet",
+        "image": "Leather-image/IMG-20240430-WA0053.jpg"
+    }
+]

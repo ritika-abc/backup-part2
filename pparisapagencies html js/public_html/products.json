@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "title": "Rice",
+        "name": "PRABOILED PONNI RICE ",
+        "image": "products/rice-list/PARBOILED PONNI RICE.png",
+        "description": "Every grain of Ponni Boiled rice is selected from the southern regions of India, where each harvest is partially cooked in the husk, followed by careful milling. Our parboiling method is calibrated to deliver a delicious, sweet, nutty flavor while offering pre-preparation for optimal cooking to deliver a winning meal."
+    },
+    {
+        "id": 2,
+        "title": "Rice",
+        "name": "PRABOILED PBT RICE",
+        "image": "products/rice-list/PARBOILED PBT RICE.png",
+        "description": "this rice is healthy to diabetic patients because it contains less carbohydrate and low glycaemic index tasty and delicious. Preferred for its rich aroma, uniform and long grain size and delicious taste our bpt rice is an excellent source of carbohydrates and vitamin-b."
+    },
+    {
+        "id": 3,
+        "title": "Rice",
+        "name": "WHITE PONNI RICE  ",
+        "image": "products/rice-list/WHITE PONNI RICE.png",
+        "description": "White Ponni Boiled Rice is milled rice that has been perfectly aged making it non-sticky and fluffy when cooked. It is popularly used in the preparation of pulao, kheer, biryani, and other delectable dishes. Its "
+    },
+    {
+        "id": 4,
+        "title": "Rice",
+        "name": "IDLI RICE",
+        "image": "products/rice-list/IDLI RICE.png",
+        "description": "Idli Rice is a good supply of proteins and carbohydrates. It is nutritious as it is a rich supply of fibers and is simple to healthy and digests. They are light and it can make in jiffy with minimum ingredients. It makes smooth, flaky rice flour idli. It is preferred for making idlis and dosas, as well as kanji for elders and babies, as it is easier to digest and better in terms of nutrition than raw rice. "
+    },
+    {
+        "id": 5,
+        "title": "Rice",
+        "name": " PRABOILED R N R RICE ",
+        "image": "products/rice-list/Parboiled RNR RICE.png",
+        "description": "RNR Parboiled Riceis a short grain, aromatic rice that is classified as a long-grain, aromatic variety. It is a rich source of dietary fiber, B vitamins, minerals, and antioxidants. In addition to providing health benefits, RNR Parboiled Rice is also low in calories and cholesterol free. There are numerous health benefits associated with consuming RNR Parboiled Rice Firstly, organic RNR Parboiled Riceis a good source of dietary fiber, as it has a higher content than regular RNR Parboiled Rice. This fiber helps to keep your digestive system running smoothly and aids in the elimination of toxins from the body. Furthermore, organic ponni rice is also a good source of thiamin, niacin and vitamin B6. "
+    },
+    {
+        "id": 6,
+        "title": "Millet",
+        "name": " PEARL HYDERABAD MILLET",
+        "image": "products/Millet-list/Pearl hyderabadi millet .png",
+        "description": "Mostly our superior Pearl Millet  are recommended for poultry feeding. We cultivate them under an extremely hygienic condition in one of our most fertile zones. Our esteemed clients commend our Pearl Millet Seeds for their freshness, purity, good taste, numerous health benefits and enhanced shelf life. In comparison to other manufacturers, exporters and suppliers from Tamilnadu, our prices are much cheaper for such a fine quality product.",
+        "certificate": "img/certificate/Pearl hybrid millet.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Millet",
+        "name": " FINGER MILLET ",
+        "image": "products/Millet-list/Finger millet.png",
+        "description": "Finger millet is considered one of the most nutritious cereals. Finger millet contains about 5–8% protein, 1–2% ether extractives, 65–75% carbohydrates, 15–20% dietary fiber and 2.5–3.5% minerals. Of all the cereals and millets, finger millet has the highest amount of calcium (344mg%) and potassium (408mg%).",
+        "certificate": "img/certificate/Finger millet data.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Millet",
+        "name": "WHITE SORGHUM",
+        "image": "products/Millet-list/White sorghum.png",
+        "description": "Sorghum is a strong grass and usually grows to a height of 0.6 to 2.4 metres (2 to 8 feet), sometimes reaching as high as 4.6 metres (15 feet). Stalks and leaves are coated with a white wax, and the pith, or central portion, of the stalks of certain varieties is juicy and sweet. ",
+        "certificate": "img/certificate/White Sorghum.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Millet",
+        "name": " RED SORGHUM ",
+        "image": "products/Millet-list/Red sorghum.png",
+        "description": "Red Sorghum has been a staple in South Indian cuisine for centuries. This ancient grain holds significant historical and cultural importance in the region, often featured in traditional dishes and festivals. Its resilience in diverse climates and ability to thrive in arid conditions make it a valuable crop for farmers.Sorghum is a strong grass and usually grows to a height of 0.6 to 2.4 metres (2 to 8 feet), sometimes reaching as high as 4.6 metres (15 feet). Stalks and leaves are coated with a white wax, and the pith, or central portion, of the stalks of certain varieties is juicy and sweet. ",
+        "certificate": "img/certificate/Red shargam.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Millet",
+        "name": " BARNYARD MILLET ",
+        "image": "products/Millet-list/Barnyard millet.png",
+        "description": "Barnyard millet, also known as Kudiraivali rice, is a protein-rich cereal that is a healthy addition to your diet. The health benefits of organic staples are numerous. It contains Vitamin B3, which helps to lower high blood cholesterol. Its high protein, carbohydrate, and fat content makes it a nutritious meal choice. ",
+        "certificate": "img/certificate/Branyard millet.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Millet",
+        "name": " FOXTAIL MILLET",
+        "image": "products/Millet-list/FOXTAIL MILLET.png",
+        "description": "The barnyard millet is a popular cereal or coarse grain with a very high nutritional value, versatility, and availability. The Barnyard millet or Sanwa rice as it is popularly known has high levels of protein, calcium, iron, minerals, and vitamin B complex. ",
+        "certificate": "img/certificate/Foxtail millet.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Millet",
+        "name": " KODA MILLET",
+        "image": "products/Millet-list/Koda millet.png",
+        "description": "Kodo millet is a monocot and an annual grass that grows to heights of approximately four feet. It has an inflorescence that produces 4-6 racemes that are 4–9 cm long. Its slender, light green leaves grow to be 20 to 40 centimeters in length. ",
+        "certificate": "img/certificate/Koda millet.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Millet",
+        "name": "LITTLE MILLET",
+        "image": "products/Millet-list/Little millet.png",
+        "description": "Little millet, also known as Samai in Tamil and by other names like Kutki, Shavan, and Gajro, is a small-grained cereal native to India and a vital source of nutrition for many people in the country. This gluten-free grain is packed with essential nutrients that make it a healthy addition to children's diets. ",
+        "certificate": "img/certificate/Little millet .jpg"
+    },
+    {
+        "id": 14,
+        "title": "Maize",
+        "name": "Maize Machine Cleaned ",
+        "image": "products/Mazin-list/Maize Machine Cleaned.png",
+        "description": "The company is busy supplying maize cleaning equipment to the interested customers. The equipment is known for its effective functioning and improvised sturdiness. The maize is a popular Indian food item, used for making distinct dishes and deliver great amount of carbohydrase to the body and makes the eaters feel energetic. The premium quality maize cleaning equipment is easy to clean as well as maintain. The extended durability and easy operating system are other advantages of the machine.  "
+    },
+    {
+        "id": 15,
+        "title": "Maize",
+        "name": "Maize Unclean",
+        "image": "products/Mazin-list/Maize unclean.png",
+        "description": "Maize is a cultivated grass that usually reaches around 3m in height. The stems have dark green and shiny leaves that grow alternately along either side. At the top of the stem, numerous male flowers are arranged in a complex structure resembling tassels, and release pollen when blown by the wind."
+    },
+    {
+        "id": 18,
+        "title": "Turmeric",
+        "name": "Finger Turmeric",
+        "image": "products/Turmeric-list/Finger turmeric .png",
+        "description": "The turmeric finger is the purest form of turmeric and is used in medicines, food and dyeing processes. The product is sourced from the farmers who grow the crop in natural and organic manner. Turmeric is widely grown in Erode. Turmeric powder is made from turmeric fingers.",
+        "certificate": "img/certificate/Finger turmeric.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Gram",
+        "name": "Black Whole Gram",
+        "image": "products/gram-list/Black whole gram.png",
+        "description": "Black gram is popularly known as urad dal in the Indian subcontinent. It is one of the most commonly used food items in South India. It has high nutritional content, including protein, fat, carbohydrate, vitamins, and minerals. These are whole-shaped beans with narrow and cylindrical shapes split into halves.",
+        "certificate": "img/certificate/Whole black gram.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Seeds",
+        "name": "Black Brown Sesame Seeds",
+        "image": "img/black sesame seed.jpg",
+        "description": "Black sesame seeds, scientifically known as Sesamum indicum, are small, flat seeds with a distinctive nutty flavor. They are the less processed cousins of the more commonly known white sesame seeds. Originating from the sesame plant, these seeds are not just culinary delights but also a repository of health benefits.",
+        "certificate": "img/certificate/Black sesame .jpg"
+    },
+    {
+        "id": 21,
+        "title": "Coconut",
+        "name": "Semi Husked Cocont",
+        "image": "img/semi-husked coconut.jpeg",
+        "description": "The coconuts, which we supply, are widely used in various industries such as food and beverage, cosmetic and health & beauty care products. We supply fresh, semi-husked coconuts. Our semi-husked coconuts can be easily broken and are enriched with coconut water. The coconuts are fully mature and light brown in colour"
+    },
+    {
+        "id": 22,
+        "title": "Coconut",
+        "name": "Husked Coconut",
+        "image": "img/husked-coconut.jpg",
+        "description": "Full husked coconut matured coconuts the husk is removed completely. Fully matured coconuts, but the husks have been completely removed. The shelf life of this variety is slightly less than that of semi-husked ones, but since there is no husk, handling these coconuts can be done easily. These coconuts must be stored in a cool, dry place."
+    }
+]

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALLET</title>
+    <link rel="icon" type="image/jpeg" href="walesolution-logo.jpeg">
+    <link rel="stylesheet" href="leather-style.css">
+    <link rel="stylesheet" href="leather-utility.css">
+    <link rel="stylesheet" href="product-card-style.css">  
+</head>
+<body>
+    
+    <header>
+        <a href="leather-index.html" class="brand"><img src="walesolution-logo.jpeg" class="logo" alt=""></a>
+        <div class="menu-btn">
+            <div class="navigation">
+                <div class="navigation-items">
+                    <a href="leather-index.html">Home</a>
+                    <a href="about-us.html">About</a>
+                    <a href="products-card.html">Our Products</a>
+                    <a href="contact-us.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <img decoding="async" class="img-slide active" src="img/WALLET10.webp"></img>
+        <div class="content active">
+            <h1>Genuine Leather Wallet Manufacturers and Exporter Company.</h1>
+            <p>We offer Different Styles Leather Wallet for Men.</p>
+            <a href="#">SHOP NOW</a>
+        </div>
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+    <div class="container">
+        <div class="title">PRODUCT LIST</div>
+        <div class="data-categories">
+          <h2 class="card-heading">Leather wallet</h2>
+          <div class="listProduct"></div>
+        </div>
+      </div>
+ <!-- footer start -->
+ <footer class="footer">
+    <div class="foot-content">
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>
+                Wake Solutions is one of the top leading export company founded by Mr. Ghulam qadir in Kolkata, West
+                Bengal, India with an aim to own the tag of an ideal supplying company on a global platform.
+            </p>
+        </div>
+        <div class="quick-links">
+            <h2>Quick links</h2>
+            <ul>
+                <li>Company Profile</li>
+                <li> <a class="links" href="products-card.html">Our Products</a></li>
+                <li>sitemap</li>
+                <li> <a class="links" href="about-us.html">About Us</a></li>
+                <li><a class="links" href="contact-us.html">Contact Us</a></li>
+                <li>Market place</li>
+            </ul>
+        </div>
+        <div class="products">
+            <h2><a href="products-card.html">Our Products</a></h2>
+            <ul>
+                <li><a class="links" href="leather-wallet.html">Men's Wallet</a></li>
+                <li><a class="links" href="Ladies-Hand-Bag.html">Ladies Hand Bag </a></li>
+                <li><a class="links" href="Ladies-Bag.html">Ladies Bag</a></li>
+                <li><a class="links" href="Portfolio-bag.html">Portfolio Bag</a></li>
+                <li><a class="links" href="Duffle-Bag.html"> Duffle Bag </a></li>
+                <li><a class="links" href="Mens's-Belt.html"> Mens's Belt </a></li>
+               
+            </ul>
+        </div>
+        <div class="company-details">
+            <h2>Contact us</h2>
+            <ul>
+                <li>
+                    <img class="invert1" src="call.svg" alt="" /> phone : +91
+                    7044253968
+                </li>
+                <li>
+                    <img class="invert1" src="email.svg" alt="" /> Email:
+                    ghulamqadir@wakesolutions.co
+                </li>
+                <li>
+                    <img class="invert1" src="location.svg" alt="" /> Address:
+                   32, IMDAD ALI LANE,KOLKATA -700016, WEST BENGAL.
+                </li>
+            </ul>
+            <div class="footlogo">
+                <img src="Leather-image/logo-web2export.jpg" class="f-logo" alt="" />
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright-text">
+    <p>
+        Copyright © Wake Solutions 2023.Website Designed &amp; Promoted by
+        Web2Export
+    </p>
+</div>
+</div>
+<!-- footer start -->
+<script src="leather-script.js" defer data-deferred="1"></script>
+
+      <script>
+
+        let products = null;
+        fetch("product-card.json")
+          .then((response) => response.json())
+          .then((data) => {
+            products = data;
+            addDataToHTML();
+          });
+  
+        function addDataToHTML() {
+          let listProductHTML = document.querySelector(".listProduct");
+  
+          let maizeProducts = products.filter(
+            (product) => product.title === "Wallet"
+          );
+  
+          if (maizeProducts.length > 0) {
+            maizeProducts.forEach((product) => {
+              let newProduct = document.createElement("a");
+              newProduct.href = "/detail.html?id=" + product.id;
+              newProduct.classList.add("item");
+              newProduct.innerHTML = `<img src="${product.image}" alt="">
+                             <h2>${product.name}</h2>`;
+  
+              listProductHTML.appendChild(newProduct);
+            });
+          } else {
+            listProductHTML.innerHTML = "No maize products found.";
+          }
+        }
+      </script>
+</body>
+</html>

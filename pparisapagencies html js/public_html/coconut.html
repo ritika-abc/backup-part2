@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coconut</title>
+  <link rel="stylesheet" href="products-style.css" />
+  <link rel="stylesheet" href="vendars/bootstrap-5.2.3/dist/css/bootstrap.min.css">
+  <style>
+    .footer_para {
+      margin-bottom: 20px;
+    }
+
+    footer a,
+    p {
+      color: white;
+      text-align: justify;
+    }
+
+    footer h4 {
+      color: orange;
+    }
+
+    footer li:hover a {
+      color: orange;
+      transition: 0.4s;
+    }
+
+    .footer_img ul img {
+      filter: invert(1);
+    }
+
+    .bg {
+      height: 50vh;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bg_content{
+      display: flex;
+      height: 50vh;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+    }
+    .breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: #ffffff;
+    content: var(--bs-breadcrumb-divider, "/");
+}
+    @media screen and (max-width:576px) {
+      .p-5 {
+        padding: 10px !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <div class="container-fluid  " style="background-color: #067564;">
+    <div class="row">
+      <div class="col-12">
+        <ul class="nav">
+          <li class="nav-item d-none d-sm-none d-md-flex"><a href="" class="nav-link "><img class="invert "
+                style="filter: invert(1);" src="facebook.svg" alt="" /></a></li>
+          <li class="nav-item d-none d-sm-none d-md-flex"><a href="" class="nav-link"><img class="invert"
+                style="filter: invert(1);" src="twitter.svg" alt="" /></a></li>
+          <li class="nav-item d-none d-sm-none d-md-flex"><a href="" class="nav-link"><img class="invert"
+                style="filter: invert(1);" src="linkedin.svg" alt="" /></a></li>
+          <li class="nav-item d-none d-sm-none d-md-flex"><a href="" class="nav-link"><img class="invert"
+                style="filter: invert(1);" src="instagram.svg" alt="" /></a></li>
+          <li class="nav-item ms-auto d-none d-sm-none d-md-flex"><a href="" class="nav-link text-white">+91
+              9943375044</a></li>
+          <li class="nav-item d-none d-sm-none d-md-flex"><a href=""
+              class="nav-link text-white">parisellai.102@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- contact details end-->
+
+  <!-- main menu start -->
+  <div class="top-head  bg-white flex d-none d-sm-none d-md-none d-lg-none" style="background-color: black !important;">
+    <!-- logo-start -->
+    <div class="logo">
+      <img src="img/eagle-logo.png" class="icon" alt="" />
+    </div>
+    <!-- logo-end -->
+    <!-- menu Start -->
+    <div class="drop-menu">
+      <nav>
+        <ul class="menu-links">
+          <li>
+            <a href="index.html" class="links">Home </a>
+          </li>
+          <li>
+            <a href="white-rice.html" class="links">White Rice</a>
+            <ul class="drop-link bg-white p-0" style="background-color: black !important;">
+              <li><a href="white-rice.html">Ponni Rice</a></li>
+              <li><a href="white-rice.html">P B T Rice</a></li>
+              <li><a href="white-rice.html">Idli Rice</a></li>
+              <li><a href="white-rice.html">R N R (bullet) Rice</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="millet.html" class="links">Green Millet</a>
+            <ul class="drop-link bg-white p-0" style="background-color: black !important;">
+              <li><a href="millet.html">Pearl Hybrate Millet</a></li>
+              <li><a href="millet.html">Red & White Sorghum</a></li>
+              <li><a href="millet.html">Finger Millet</a></li>
+              <li><a href="millet.html">Barnyard Millet</a></li>
+              <li><a href="millet.html">Foxtail Mittel</a></li>
+              <li><a href="millet.html">Koda Millet</a></li>
+              <li><a href="millet.html">Little Millet</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="maize.html" class="links">Maize</a>
+            <ul class="drop-link bg-white p-0" style="background-color: black !important;">
+              <li><a href="maize.html">Maize Machine Cleaned</a></li>
+              <li><a href="maize.html">Maize Unclean</a></li>
+            </ul>
+          </li>
+          <li><a href="coconut.html" class="links">Coconut</a>
+            <ul class="drop-link bg-white p-0" style="background-color: black !important;">
+              <li><a href="coconut.html">Semi Husked Coconut</a></li>
+              <li><a href="coconut.html">Husked Coconut</a></li>
+            </ul>
+          </li>
+          </li>
+          <li>
+            <a href="seeds.html" class="links">Sesame Seed</a>
+            <ul class="drop-link bg-white p-0" style="background-color: black !important;">
+              <li><a href="seeds.html">Black Brown Sesame Seed</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="turmeric.html" class="links">Turmeric</a>
+            <ul class="drop-link bg-white p-0" style="background-color: black !important;">
+              <li><a href="turmeric.html">Finger Turmeric</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="menu-icon" onclick="toggle()">
+          <img class="menu-toggle" src="menu-toggle.svg" alt="" />
+        </div>
+      </nav>
+    </div>
+    <!-- menu end -->
+  </div>
+
+  <!-- Mobile Navigation start-->
+  <!-- <ul class="mobile-nav">
+      <li class="active li-links">
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="products-cards.html">Our Product</a>
+      </li>
+      <li>
+        <a href="abou-us.html">About us</a>
+      </li>
+      <li><a href="contactus.html">Enquiry/Contact</a></li>
+    </ul> -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark   m-0 d-flex d-sm-flex d-md-block d-lg-block"
+    data-bs-theme="dark" style="background-color: black !important;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <div class="logo">
+          <img src="img/eagle-logo.png" class="" height="70px" width="100px" alt="" />
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon  "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item px-2">
+            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle  text-white" href="white-rice.html" data-bs-toggle="dropdown">
+              White Rice
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="white-rice.html">Ponni Rice</a></li>
+              <li><a class="dropdown-item" href="white-rice.html">P B T Rice</a></li>
+              <li><a class="dropdown-item" href="white-rice.html">Idli Rice</a></li>
+              <li><a class="dropdown-item" href="white-rice.html">R N R (bullet) Rice</a></li>
+              <li><a class="dropdown-item" href="white-rice.html">Idli Rice</a></li>
+              <li><a class="dropdown-item" href="white-rice.html">Idli Rice</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle text-white" href="millet.html" data-bs-toggle="dropdown">
+              Green Millet
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="millet.html">Pearl Hybrate Millet</a></li>
+              <li><a class="dropdown-item" href="millet.html">Red & White Sorghum</a></li>
+              <li><a class="dropdown-item" href="millet.html">Finger Millet</a></li>
+              <li><a class="dropdown-item" href="millet.html">Koda Millet</a></li>
+              <li><a class="dropdown-item" href="millet.html">Little Millet</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle text-white" href="maize.html" role="button" data-bs-toggle="dropdown">
+              Maize
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="maize.html">Maize Machine Cleaned</a></li>
+              <li><a class="dropdown-item" href="maize.html">Maize Unclean</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle text-white" href="coconut.html" role="button" data-bs-toggle="dropdown">
+              Coconut
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="coconut.html">Semi Husked Coconut</a></li>
+              <li><a class="dropdown-item" href="coconut.html">Husked Coconut</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle text-white" href="seeds.html" role="button" data-bs-toggle="dropdown">
+              Sesame Seed
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="seeds.html">Black Brown Sesame Seed</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle text-white" href="turmeric.html" role="button" data-bs-toggle="dropdown">
+              Turmeric
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="turmeric.html">Finger Turmeric</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- <nav class="mt-4" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <h3>PRODUCT LIST</h3>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html" class="text-dark text-decoration-none fw-bold ">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="products-cards.html"
+          class="text-dark text-decoration-none  fw-bold text-capitalize">PRODUCT-LIST</a></li>
+    </ol>
+  </nav> -->
+
+  <div class="bg"
+    style="background-image: linear-gradient(rgba(63, 61, 61, 0.411),rgba(95, 93, 93, 0.651)), url(img/Millet-3.jpeg) ">
+    <div class="bg_content">
+      <nav class="mt-4 text-white text-center"   aria-label="breadcrumb">
+        <!-- <h3 class="display-4">PRODUCT LIST</h3> -->
+        <ol class="breadcrumb text-center ">
+          <li class="breadcrumb-item"><a href="index.html" class="text-white text-decoration-none fw-bold  ">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page"><a href="products-cards.html"
+              class="text-white text-decoration-none  fw-bold text-capitalize">Coconut List</a></li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+    <div class="container">
+      <div class="title">PRODUCT LIST</div>
+      <div class="data-categories">
+        <h2 class="card-heading">Coconut</h2>
+        <div class="listProduct"></div>
+      </div>
+    </div>
+    <footer class="p-5 "
+    style="background-image: url(img/footar-bg.png);background-color: #1f4e3d;background-size: cover;background-position: center center;">
+    <div class="container-fluid text-start ">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3  mb-4 px-3">
+          <div class="footer_para">
+            <h4>About Us</h4>
+            <p> "Welcome to P.PARI S.A.P.AGENCIES Rice Mill, where quality meets
+              tradition, With state-of-the-art technology , with cutting-edge
+              technology and a commitment to excellence, we bring you the finest
+              rice products straight from our feilds to your table. Experience
+              the taste of purity and the essence of sustainability with every
+              grain from mill."</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3  mb-4 px-3">
+          <h4>Quick links</h4>
+          <ul class="list-unstyled ">
+            <li class=""><a href="" class="text-decoration-none">Company Profile</a></li>
+            <li class="mt-1"><a href="products-cards.html" class="text-decoration-none">Our Products</a></li>
+            <li class="mt-1"><a href="" class="text-decoration-none">sitemap</a></li>
+            <li class="mt-1"><a href="abou-us.html" class="text-decoration-none">About Us</a></li>
+            <li class="mt-1"><a href="contactus.html" class="text-decoration-none">Contact Us</a></li>
+            <li class="mt-1"><a href="" class="text-decoration-none">Market place</a></li>
+            <a href="TRUST SEAL.pdf" class="mt-3 d-block"><img src="img/trust.png" class="res" height="auto" width="50%"
+                alt=""></a>
+
+          </ul>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3  mb-4 px-3">
+          <h4>Our Products</h4>
+          <ul class="list-unstyled ">
+            <li><a class="text-decoration-none" href="millet.html">Millet</a></li>
+            <li class="mt-1"><a href="white-rice.html" class="text-decoration-none">White Rice</a></li>
+            <li class="mt-1"><a href="coconut.html" class="text-decoration-none">Coconut</a></li>
+            <li class="mt-1"><a href="seeds.html" class="text-decoration-none">Seed</a></li>
+            <li class="mt-1"><a href="whole-gram.html" class="text-decoration-none">Whole Grams</a></li>
+            <li class="mt-1"><a href="turmeric.html" class="text-decoration-none">Turmeric</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 footer_img  mb-4 px-3">
+          <h4>Contact us</h4>
+          <ul class="list-unstyled ">
+            <li class="mt-2"><a href="" class="text-decoration-none"><img class="invert1" src="call.svg" alt="" /> phone
+                : +91
+                9943375044</a></li>
+            <li class="mt-2"><a href="" class="text-decoration-none"> <img class="invert1" src="email.svg" alt="" />
+                Email:
+                parisellai.102@gmail.com</a></li>
+            <li class="mt-2"><a href="" class="text-decoration-none"> <img class="invert1" src="location.svg" alt="" />
+                Address:
+                5/403-A1 CUDDALORE MAIN ROAD , VADASENNIMALAI , ATTUR ,Salem, TamilNadu, India
+              </a></li>
+              
+          </ul>
+          <div class="footlogo " >
+            <img src="img/logo-web2export.jpg" class="" height="auto" width="45%" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="vendars/bootstrap-5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      let products = null;
+      fetch("products.json")
+        .then((response) => response.json())
+        .then((data) => {
+          products = data;
+          addDataToHTML();
+        });
+
+      function addDataToHTML() {
+        let listProductHTML = document.querySelector(".listProduct");
+
+        let maizeProducts = products.filter(
+          (product) => product.title === "Coconut"
+        );
+
+        if (maizeProducts.length > 0) {
+          maizeProducts.forEach((product) => {
+            let newProduct = document.createElement("a");
+            newProduct.href = "/detail.html?id=" + product.id;
+            newProduct.classList.add("item");
+            newProduct.innerHTML = `<img src="${product.image}" alt="">
+                           <h2>${product.name}</h2>`;
+
+            listProductHTML.appendChild(newProduct);
+          });
+        } else {
+          listProductHTML.innerHTML = "No maize products found.";
+        }
+      }
+    </script>
+  </body>
+</html>

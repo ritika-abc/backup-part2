@@ -1,0 +1,7 @@
+sitemap: https://shreesatyaenterprises.com/
+
+User-agent: *
+Allow: /
+
+User-agent: HTTrack
+Disallow: /

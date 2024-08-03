@@ -1,0 +1,1305 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    /* Change to a contrasting color */
+    color: #000;
+    /* Change to a contrasting color */
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.top-bar-header {
+    background: #067564;
+    color: #ffffff;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.head-left {
+    position: relative;
+}
+
+.info-head .contact-info {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 38px;
+    padding: 0 20px;
+    margin: 6px 0;
+}
+
+.contact-info h2 {
+    font-size: 0.95rem;
+}
+
+.info-head ul li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.style-social {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    list-style: none;
+}
+
+.style-social ul li {
+    cursor: pointer;
+}
+
+/* main-menu start */
+.top-head {
+    width: 100%;
+    min-height: 80px;
+    /* Changed height to min-height */
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-container {
+    justify-content: space-around;
+}
+
+.icon {
+    width: 70px;
+    margin-left: 65px;
+    cursor: pointer;
+}
+
+.drop-menu {
+    position: relative;
+    margin-left: 250px;
+    border-color: rgb(183, 179, 179);
+    backdrop-filter: blur(4px) saturate(180%);
+    z-index: 1;
+    right: 80px;
+}
+
+nav .drop-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav {
+    margin: 5px 0 0 30px;
+}
+
+.drop-menu .menu-links {
+    display: inline-flex;
+}
+
+.menu-links li {
+    list-style: none;
+}
+
+.menu-links li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.4s ease-in-out;
+    font-size: 0.88rem;
+}
+
+.menu-links li a:hover {
+    background-color: rgb(233, 230, 230);
+    border-radius: 6px;
+    color: #000;
+    font-weight: 600;
+
+}
+
+.menu-links .drop-link {
+    margin-top: 30px;
+    line-height: 45px;
+    width: 170px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu-links li:hover .drop-link {
+    margin-top: 9px;
+    opacity: 1;
+    visibility: visible;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 50px -12px;
+    transition: all 0.3s ease;
+}
+
+.drop-link li a {
+    width: 100%;
+    display: block;
+    font-size: 0.82rem;
+    padding: 0 0 0 12px;
+    border-radius: 0px;
+    color: white;
+    font-weight: lighter;
+}
+
+/* main-menu end */
+
+/* mobile navigation start */
+.mobile-nav {
+    position: absolute;
+    left: -400px;
+    top: 120px;
+    width: 380px;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    height: calc(100vh - 80px);
+    background-color: black;
+    z-index: 1;
+    transition: left 0.7s ease;
+}
+
+.menu-icon {
+    filter: invert(1);
+}
+
+.backdrop {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: transparent;
+    z-index: 0;
+}
+
+
+.mobile-nav li {
+    list-style: none;
+}
+
+.mobile-nav li {
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    width: 55%;
+    height: 25px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.mobile-nav li a {
+    margin-top: 3px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease-out;
+}
+
+.mobile-nav li.active,
+.mobile-nav li.active a {
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-nav li:hover a {
+    color: rgb(6, 5, 5);
+    font-weight: 700;
+    background-color: white;
+    border-radius: 8px;
+    width: 150%;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.li-links li {
+    margin: 0 1rem;
+}
+
+.li-links li a {
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease;
+}
+
+.li-links li a.active {
+    color: white;
+}
+
+.li-links li a:hover {
+    color: white;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+
+/* mobile navigation start */
+
+
+
+
+
+.rice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.slider {
+    display: flex;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 595px;
+    position: relative;
+    object-fit: cover;
+
+}
+
+.slider-text {
+    color: #fff;
+    position: absolute;
+    margin: 150px 200px 40px 0;
+    font-size: 3.45rem;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    width: 71%;
+}
+
+.slider-content {
+    color: #fff7cd;
+    position: relative;
+    margin: 139px 30px 0 0;
+    font-size: 2.1rem;
+    justify-content: center;
+    display: grid;
+    width: 85%;
+    font-weight: 800;
+    align-items: center;
+}
+
+.rice-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/* main content start */
+.container {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    padding: 55px 0 28px 0;
+}
+
+.content-rice {
+    justify-content: center;
+    width: 40%;
+    display: grid;
+    margin-right: 50px;
+}
+
+.heading {
+    font-size: 3rem;
+    color: #009a4e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 15px;
+}
+
+.drop {
+    color: black;
+    font-weight: bold;
+    font-size: 1.20rem;
+    font-weight: bolder;
+    margin: 0 0 14px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content-list {
+    font-size: 1rem;
+}
+
+.btn {
+    margin-top: 35px;
+    color: #000;
+    height: 50px;
+    width: 44%;
+    border: none;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 0.99rem;
+    font-weight: 550;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #009a4e;
+    color: white;
+    margin-top: 9px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 50px -12px;
+    transition: all 0.3s ease;
+}
+
+
+.wheat {
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+/* main content end */
+
+/* second content start  */
+.container-second {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 0 25px 0;
+    background-image: url(img/bg-wheat.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-x: 100%;
+    background-position-y: 97%;
+}
+
+/* .image-content-slider {
+    width: 70%;
+    height: 70%;
+     
+
+} */
+
+.second-content {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.leaf-icon {
+    padding-left: 70px;
+}
+
+.color {
+    color: gray;
+    font-size: 0.87rem;
+    font-weight: 600;
+    position: relative;
+    left: 35px;
+}
+
+.h-4 {
+    font-size: 1.88rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    width: 140%;
+    right: 190px;
+    position: relative;
+    gap: 35px;
+    top: 25px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.card-icon {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    /* aspect-ratio: 2/2; */
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
+}
+
+.cards {
+    border-radius: 15px;
+    width: 22.8%;
+    height: 485px;
+    background-color: white;
+    justify-content: center;
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 50px -12px;
+    aspect-ratio: 2/2;
+}
+
+.head-txt {
+    position: relative;
+    bottom: 20px;
+    left: 4px;
+}
+
+.card-txt {
+    bottom: 15px;
+    left: 4px;
+    position: relative;
+    font-size: 0.89rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* second content end  */
+
+
+
+
+/* designing footer  */
+
+.footer {
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f4e3d;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    width: 100%;
+    height: 440px;
+    background-position-y: 50px;
+    position: relative;
+}
+
+.foot-content {
+    display: flex;
+    margin-top: 20px;
+    color: orange;
+}
+
+.about-us {
+    text-align: justify;
+}
+
+.about-us p {
+    margin-top: 15PX;
+    /* width: 20vw; */
+    color: white;
+}
+
+.quick-links {
+    /* width: 20vw; */
+}
+
+.quick-links li {
+    margin-top: 15PX;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+}
+
+.quick-links li:hover {
+    color: orange;
+}
+
+.products {
+    /* width: 20vw; */
+}
+
+.products h2 a {
+    text-decoration: none;
+    color: orange;
+}
+
+.products li {
+    margin-top: 15PX;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+}
+
+.products li:hover {
+    color: orange;
+}
+
+.company-details {
+    /* width: 20vw; */
+}
+
+.company-details li {
+    margin-top: 15PX;
+    list-style-type: none;
+    color: white;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.footlogo {
+    padding-top: 15px;
+}
+
+.f-logo {
+    width: 70%;
+    height: 35%;
+}
+
+.copyright-text {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+    /* margin-top: 10px; */
+}
+
+.invert1 {
+    filter: invert(1);
+
+}
+
+/* header work here */
+/* .main_ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_list{
+    display: flex;
+    position: absolute;
+
+}
+ 
+.nav_list>li{
+    padding: 10px;
+    background-color: red;
+}
+.main_ul{
+    position: relative;
+} */
+
+/* footer end */
+
+
+/* user responsive  */
+.card-icon{
+    aspect-ratio: 1/ 1;
+
+
+}
+.company-details , h2{
+    font-size: 24px !important;
+}
+
+@media screen and (max-width:576px) {
+    .card-icon{
+        aspect-ratio: 0 / 2;
+    }
+    /* .foot-content{
+        display: block;
+   } */ 
+    .about-us {
+        width: 100% !important;
+         
+    }
+    .company-details {
+        width: 100%;
+    }
+    .company-details li {
+      font-size: 12px;
+    }
+    .slider{
+        background-size: cover;
+    }
+    .slider p ,h1{
+        display: none;
+    }
+    .res{
+        width: 20% !important;
+    }
+}
+@media screen and (max-width: 1199px) {
+
+
+    html,body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .top-bar-header {
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+        display: inline-flex;
+    }
+
+
+
+    .style-social {
+        display: none;
+    }
+
+    .menu-icon {
+
+        position: relative;
+    }
+
+    .drop-menu .menu-links {
+        display: none;
+    }
+
+    .drop-menu .menu-icon {
+        display: block;
+    }
+
+    .mobile-nav.show {
+        left: 0;
+    }
+
+    .mobile-nav.show+.backdrop {
+        display: block;
+    }
+
+    .mobile-nav.show {
+        left: 0;
+    }
+
+    .mobile-nav.show+.backdrop {
+        display: block;
+    }
+
+    .slider {
+        height: 435px;
+    }
+
+    .slider-text {
+        margin: 80px 90px 20px 0;
+        font-size: 2.29rem;
+    }
+
+    .slider-content{
+        font-size: 1.38rem;
+        margin: 100px 0 10px 0;
+    }
+    /* .contact-info h2 {
+        font-size: 0.84rem;
+    }
+
+    .head-right {
+        margin-top: 5px;
+    }
+
+    .icon {
+        margin-left: 15px;
+    }
+
+    .slider {
+        height: 250px;
+    }
+
+    .rice-img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .container-second {
+        background-size: 35%;
+    }
+
+    .container {
+        position: relative;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-top: 5px;
+        display: grid;
+    }
+
+    .content-rice {
+        width: 90%;
+        margin-left: 45px;
+    }
+
+    .img-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+
+    }
+
+    .content-list {
+        width: 100%;
+    }
+
+    .wheat {
+        width: 75%;
+        height: 50vh;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    .btn:hover {
+        background-color: #009a4e;
+        color: white;
+        margin-top: 9px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 50px -12px;
+        transition: all 0.3s ease;
+
+    }
+
+    .card-container {
+        width: 215%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards {
+        width: 85%;
+    }
+
+    .card-icon {
+        height: 30vh;
+    }
+
+    .footer {
+        background-size: 87%;
+        width: 100%;
+        height: 367px;
+        background-position-y: 100px;
+    }
+
+    .foot-content {
+        width: 100%;
+        margin: 15px 12px 0 12px;
+    }
+
+    .about-us {
+        width: 25%;
+    }
+
+    .about-us h2 {
+        font-size: 1.29rem;
+    }
+
+    .about-us p {
+        font-size: 0.72rem;
+    }
+
+    .quick-links {
+        width: 25%;
+    }
+
+    .quick-links h2 {
+        font-size: 1.29rem;
+    }
+
+    .quick-links ul {
+        font-size: 0.79rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .products {
+        width: 25%;
+    }
+
+    .products h2 {
+        font-size: 1.29rem;
+    }
+
+    .products ul {
+        font-size: 0.79rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .company-details h2 {
+        font-size: 1.29rem;
+        cursor: pointer;
+    }
+
+    .invert {
+        filter: invert(1);
+        width: 14px;
+    }
+
+    .company-details ul {
+        font-size: 0.65rem;
+        font-weight: bold;
+    }
+
+    .copyright-text {
+        font-size: 0.85rem;
+    } */
+}
+
+@media (max-width: 700px) and (min-width: 500px) {
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;       
+    }
+
+    .top-bar-header {
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+        display: inline-flex;
+    }
+
+    .menu-icon {
+        right: 100px;
+        position: relative;
+    }
+
+    .style-social {
+        display: none;
+    }
+
+    .drop-menu .menu-links {
+        display: none;
+    }
+
+    .drop-menu .menu-icon {
+        display: block;
+    }
+    .drop-menu{
+        right: 0%;
+        
+    }
+
+    .mobile-nav.show {
+        left: 0;
+    }
+
+    .mobile-nav.show+.backdrop {
+        display: block;
+    }
+
+    .contact-info h2 {
+        font-size: 0.84rem;
+    }
+
+    .head-right {
+        margin-top: 5px;
+    }
+
+    .icon {
+        margin-left: 15px;
+    }
+
+    .slider {
+        height: 250px;
+    }
+
+    .rice-img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .container-second {
+        background-size: 35%;
+    }
+
+    .container {
+        position: relative;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-top: 5px;
+        display: grid;
+    }
+
+    .content-rice {
+        width: 90%;
+        margin-left: 45px;
+    }
+
+    .img-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+
+    }
+
+    .content-list {
+        width: 100%;
+    }
+
+    .wheat {
+        width: 75%;
+        height: 50vh;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    .btn:hover {
+        background-color: #009a4e;
+        color: white;
+        margin-top: 9px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 50px -12px;
+        transition: all 0.3s ease;
+
+    }
+
+    .slider-text {
+        font-size: 1.85rem;
+        margin: 40px 70px 0 0;
+    }
+
+    .slider-content {
+        margin: 134px 5px 5px 0;
+        font-size: 1.15rem;
+    }
+
+    .card-container {
+        width: 215%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards {
+        width: 85%;
+    }
+
+    .card-icon {
+        height: 30vh;
+    }
+
+    .footer {
+        background-size: 87%;
+        width: 100%;
+        height: 367px;
+        background-position-y: 100px;
+    }
+
+    .foot-content {
+        width: 100%;
+        margin: 15px 12px 0 12px;
+    }
+
+    /* .about-us {
+        width: 25%;
+    } */
+
+    .about-us h2 {
+        font-size: 1.29rem;
+    }
+
+    .about-us p {
+        /* font-size: 0.72rem; */
+    }
+
+    
+    .quick-links h2 {
+        /* font-size: 1.29rem; */
+    }
+
+    .quick-links ul {
+        /* font-size: 0.79rem; */
+        /* font-weight: bold; */
+        cursor: pointer;
+    }
+
+    .products {
+        width: 25%;
+    }
+
+    .products h2 {
+        font-size: 1.29rem;
+    }
+
+    .products ul {
+        /* font-size: 0.79rem; */
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .company-details h2 {
+        font-size: 1.29rem;
+        cursor: pointer;
+    }
+
+    .invert {
+        filter: invert(1);
+        width: 14px;
+    }
+
+    .company-details ul {
+        /* font-size: 0.65rem; */
+        font-weight: bold;
+    }
+
+    .copyright-text {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width:500px) and (min-width: 280px) {
+
+  html,body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .drop-menu{
+        width: 100%;
+  margin-left: 350px;
+
+    }
+    .top-bar-header {
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+        display: inline-flex;
+    }
+
+    .menu-icon {
+        right: 240px;
+        position: relative;
+    }
+
+    .menu-toggle {
+        width: 32px;
+        left: 230px;
+        position: relative;
+    }
+
+    .style-social {
+        display: none;
+    }
+
+    .drop-menu .menu-links {
+        display: none;
+    }
+
+    .drop-menu .menu-icon {
+        display: block;
+    }
+
+    .mobile-nav.show {
+        left: 0;
+    }
+
+    .mobile-nav li {
+        font-size: 0.45rem;
+    }
+
+    .mobile-nav.show+.backdrop {
+        display: block;
+        margin-top: 43px;
+    }
+
+    .contact-info h2 {
+        font-size: 0.65rem;
+    }
+
+    .head-right {
+        margin-top: 5px;
+    }
+
+    .slider-text {
+        margin: 45px 70px 10px 0;
+        font-size: 1.55rem;
+    }
+
+    .slider-content {
+        margin: 100px 10px 10px 0;
+        font-size: 0.99rem;
+    }
+
+    .icon {
+        margin-left: 15px;
+    }
+
+    .slider {
+        height: 250px;
+    }
+
+    .rice-img {
+        width: 100%;
+        height: 250px;
+    }
+
+    #button {
+        margin: 30px;
+    }
+
+    .container-second {
+        background-size: 35%;
+    }
+
+    .container {
+        position: relative;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-top: 5px;
+        display: grid;
+    }
+
+    .content-rice {
+        width: 83%;
+        left: 20px;
+        position: relative;
+    }
+
+    .img-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+
+    }
+
+    .btn {
+        width: 50%;
+        font-size: 0.75rem;
+    }
+
+    .content-list {
+        width: 99%;
+        font-size: 0.81rem;
+    }
+
+    .wheat {
+        width: 85%;
+        height: 45vh;
+    }
+
+    .card-container {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards {
+        width: 68%;
+        height: 57vh;
+        left: 274px;
+        position: relative;
+
+    }
+
+    .head-txt {
+        font-size: 1.38rem;
+        margin-top: 7.9px;
+    }
+
+    .card-txt {
+        font-size: 0.84rem;
+        width: 98%;
+    }
+
+    .card-icon {
+        height: 27vh;
+    }
+
+    .footer {
+        background-size: 100%;
+        width: 100%;
+        height: 367px;
+        background-position-y: 170px;
+    }
+
+    .foot-content {
+        width: 100%;
+        margin: 15px 30px 0 12px;
+    }
+
+    .about-us {
+        width: 22vw;
+    }
+
+    .about-us h2 {
+        font-size: 0.85rem;
+    }
+
+    .about-us p {
+        /* font-size: 0.58rem; */
+    }
+
+    .quick-links {
+        /* width: 23vw; */
+    }
+
+    .quick-links h2 {
+        font-size: 0.85rem;
+    }
+
+    .quick-links ul {
+        /* font-size: 0.62rem; */
+        /* font-weight: bold; */
+    }
+
+    .products {
+        /* width: 24vw; */
+    }
+
+    .products h2 {
+        /* font-size: 0.85rem; */
+    }
+
+    .products ul {
+        /* font-size: 0.62rem; */
+        /* font-weight: bold; */
+    }
+
+    .company-details h2 {
+        font-size: 0.85rem;
+    }
+
+    .company-details ul {
+        /* font-size: 0.60rem; */
+        /* font-weight: bold; */
+    }
+
+    .invert1 {
+        filter: invert(1);
+        width: 10px;
+
+    }
+
+    .copyright-text {
+        font-size: 0.60rem;
+    }
+}
